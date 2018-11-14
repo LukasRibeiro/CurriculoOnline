@@ -1,0 +1,6 @@
+/*zerar todas as marins e paddings da pagina*/
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
