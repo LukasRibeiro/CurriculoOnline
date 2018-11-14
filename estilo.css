@@ -1,6 +1,26 @@
+/*meu proprio estilo de css para a pagina */
+
 /*zerar todas as marins e paddings da pagina*/
 *{
     margin: 0px;
     padding: 0px;
-  }
-  
+}
+
+.contato:hover, .sobre:hover{
+  background-color: aqua;
+}
+
+.corpo {
+	text-align: center;
+	padding:20px;
+	margin-top: 3%;
+	margin-right: 30%;
+	margin-left: 30%;
+	border-style: outset;
+	background-color: white;
+}
+
+.pagina{
+
+
+}
