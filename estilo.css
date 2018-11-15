@@ -1,26 +1,61 @@
+
 /*meu proprio estilo de css para a pagina */
 
-/*zerar todas as marins e paddings da pagina*/
-*{
-    margin: 0px;
-    padding: 0px;
+.corpo{
+	background-color: #20B2AA;
+	width: 100%;
+	height: 100%;
+}
+
+.top-bar{
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	z-index: 100px;
+	top: 0px;
+  	left:0;
 }
 
 .contato:hover, .sobre:hover{
   background-color: aqua;
 }
 
-.corpo {
+.formacao{
+	margin-top: 10%;
 	text-align: center;
-	padding:20px;
-	margin-top: 3%;
-	margin-right: 30%;
-	margin-left: 30%;
 	border-style: outset;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-right: 10px;
+	padding-left: 10px;
 	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-.pagina{
-
-
+.complementares{
+	margin-top: 30px;
+	text-align: center;
+	border-style: outset;
+	margin-right: 20%;
+	background-color: white;
+	margin-left: 20%;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
 }
+
+.aptidoes{
+	margin-top: 30px;
+	text-align: center;
+	border-style: outset;
+	margin-right: 20%;
+	margin-bottom: 10%;
+	margin-left: 20%;
+	background-color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+
+	}
+}
+
