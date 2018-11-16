@@ -13,21 +13,43 @@
         <script src="./foundation-6.4.2-complete/js/vendor/foundation.min.js"></script>
         <title>Curriculo</title>
     </head>
-    
-    <!--Navbar principal do site com framework-->
-    <body class="corpoPrincipal ">
-        <div class="top-bar">
-            <div class="top-bar-center">
-                <ul class="dropdown menu">
-                    <li class="menu-text nome">
-                        <a href="index.html">Lucas Monteiro Ribeiro</a>
-                    </li>
-                </ul>
+
+    <body class="corpoPrincipal">
+
+        <!--Navbar principal do site com framework-->
+        <div data-sticky-container>
+            <div class="top-bar" data-sticky data-margin-top="0">
+                <div class="top-bar-left">
+                    <ul class="menu">
+                        <li class="menu-text">Lucas Monteiro Ribeiro</li>      
+                    </ul>
+                </div>
+                <div class="icone_curriculo">
+                    <img src="./icones/curriculo.png">
+                </div>  
             </div>
         </div>
 
+        <!--Navbar principal do site com framework-->
+        <!--
+
+        <body class="corpoPrincipal ">
+            <div class="top-bar">
+                <div class="top-bar-center">
+                    <ul class="dropdown menu">
+                        <li class="menu-text nome">
+                            <a href="index.html">Lucas Monteiro Ribeiro</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icone_curriculo">
+                    <img src="./icones/curriculo.png">
+                </div>
+            </div>
+        -->
+
         <!--foto do curriculo-->
-        <div class="imagem">
+        <div class="foto_perfil">
             <div class="foto">
                 <img src="./imagens/minhafoto.jpg">
             </div>
@@ -36,19 +58,19 @@
         <!--dados pessoais do curriculo-->
         <div class="corpodados">
             <div class="dados">
-                <h5>Data de nascimento:</h5>
+                <img class="niver"src="./icones/aniversario.png">
                 <p>16/12/1997 - 20 anos</p>
 
-                <h5>Telefone:</h5>
+                <img class="icon_telefone" src="./icones/telefone.png">
                 <p>(12)3952-9884</p>
 
-                <h5>Celular:</h5>
+                <img class="icon_celular" src="./icones/celular.png">
                 <p>(12)98877-5469</p>
 
-                <h5>Email:</h5>
+                <img class="email" src="./icones/email.png">
                 <a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">luckas.ribeiro2015@gmail.com</a>
 
-                <h5>Acesse:</h5>
+                <img class="github" src="./icones/github.png">
                 <a href="https://github.com/lukasribeiro">github.com/LukasRibeiro</a>
             </div>
         </div>
@@ -56,9 +78,12 @@
         <!--corpo formação academica e outros cursos-->
         <div class="corpoCursos">
             <div class="formacao">
-                <h4>Formação Academica</h4>
-
-                <p>Faculdade de Tecnologia de São José dos Campos Professor
+                
+                <!--Verificar se isso é uma boa pratica de programação-->
+                <h4><img style="margin-right: 2%"src="./icones/formação.png">Formação Academica</h4>
+                
+                <p>
+                    Faculdade de Tecnologia de São José dos Campos Professor
                     Jessen Vidal: Curso Superior Tecnologia em Análise e
                     Desenvolvimento de Sistemas (Cursando 5° período)
                 </p>
@@ -75,7 +100,8 @@
             </div>
 
             <div class="complementares">
-                <h4>Cursos complementares</h4>
+                <!--Verificar se isso é uma boa pratica de programação-->
+                <h4><img style="margin-right: 2%"src="./icones/formação.png">Cursos Complemetares</h4>
 
                 <p>
                     ✓ Escola Técnica Cônego José bento: Curso Técnico em Logística (Concluído). 
@@ -95,7 +121,9 @@
             </div>
 
             <div class="aptidoes">
-                <h4>Aptidões</h4>
+                <!--Verificar se isso é uma boa pratica de programação-->
+                <h4><img style="margin-right: 2%"src="./icones/feliz.png">Aptidoes</h4>
+                
                 <p>
                     ✓ Pontualidade 
                 </p>
@@ -113,5 +141,14 @@
                 </p>
             </div>
         </div>
+       <!--
+        <footer>
+            <div class="wrap row small-up-1 medium-up">
+                <div>
+                    
+                </div>
+            </div>
+        </footer>
+        -->
     </body>
 </html>
