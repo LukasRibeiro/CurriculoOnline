@@ -1,13 +1,6 @@
 
 /*meu proprio estilo de css para a pagina */
 
-/* tag body do corpo da pagina */
-/*
-.corpoPrincipal{
-	background-color: #C0C0C0; 
-}
-*/
-
 /*tag da navbar superior com framework */
 .top-bar{
 	width: 100%;
@@ -20,21 +13,21 @@
 
 /*tag que junta as divs da foto */
 .foto_perfil{
-	width: 10%;
-	height:auto;
-	margin-top: 7%;
-	margin-left: 2%;
-	margin-bottom: 2%; 
+	width: 150px;
+    margin-top: 40%;
+    margin-left: 5%;
+    margin-bottom: 3%;
 }
 
-.fotoedados{	
+.fotoedados{
 	flex: 1;
 }
 
 .principal{
 	float: none;
-	margin-top: 80px;
+	/*margin-top: 20%;*/
 	display: flex;
+	/*background-color: #d3d3d3;*/
 }
 
 /*coluna dos dados pessoais */
@@ -59,6 +52,7 @@
 	/*width: 100%;*/
 	top: 20%;
 	/*float: left;*/
+	margin-top: 10%;
 	margin-right: 10%;
 	padding-left: 30%;
 	z-index: 100px;
