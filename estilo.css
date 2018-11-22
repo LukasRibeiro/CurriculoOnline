@@ -1,6 +1,27 @@
 
 /*meu proprio estilo de css para a pagina */
 
+footer div {
+  border-right: 5px solid lightgray;
+}
+
+footer div:last-child {
+  border-right: 0;
+}
+
+#esconder{
+	transition: opacity 3s;
+
+}
+
+
+
+
+
+
+
+
+
 /*tag da navbar superior com framework */
 .top-bar{
 	width: 100%;
@@ -91,7 +112,7 @@
 
 /*tag das aptidoes */
 .aptidoes{
-/*	display: none;*/
+/*s*/
 	margin-top: 30px;
 	text-align: center;
 	border-style: outset;

@@ -10,7 +10,14 @@
         <link rel="stylesheet" href="./foundation-6.4.2-complete/css/foundation.min.css">
         <link rel="stylesheet" href="./foundation-6.4.2-complete/css/app.css">
         <link rel="sylesheet" href="./reset.css">
-        <script> src="./animacoes.js"</script>
+        <!-- <script type="JavaScript" src="./animacoes.js"></script> -->
+        <script type="text/javascript" src="./animacoes.js"></script>
+        <!-- <script type="text/javascript"> -->
+            <!-- function mostar(){ -->
+                <!-- console.log("Recebi : 1") -->
+            <!-- } -->
+</script>
+
         <title>Curriculo</title>
     </head>
 
@@ -24,7 +31,10 @@
                     </ul>
                 </div>
                 <div class="icone_curriculo">
-                    <input type="image" src="./icones/curriculo.png" onclick="mostrar()">
+                    <a onclick="mostrar()">
+                        <img src="./icones/curriculo.png" >
+                    </a>
+
                     <!-- <img src="./icones/curriculo.png" id="teste" onclick=""> -->
                 </div>  
             </div>
@@ -61,7 +71,7 @@
             </div>
 
             <!--corpo formação academica e outros cursos-->
-            <div class="corpoCursos">
+            <div id="esconder" class="corpoCursos">
                 <div class="formacao" id="teste1">
 
                     <h4><img class="icone_formacao" src="./icones/formação.png">Formação Academica</h4>
@@ -126,5 +136,15 @@
                </div>
             </div>
         </div>
+
+        <footer class="row">
+            <div class="large-12 columns"></div>
+                <hr>
+            <div class="row">
+
+            <div class="large-6 columns"></div>
+
+            <div class="large-6 columns"></div>
+        </footer>
     </body>
 </html>
