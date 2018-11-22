@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="./foundation-6.4.2-complete/css/foundation.min.css">
         <link rel="stylesheet" href="./foundation-6.4.2-complete/css/app.css">
         <link rel="sylesheet" href="./reset.css">
-        <script src="./foundation-6.4.2-complete/js/vendor/foundation.min.js"></script>
+        <script> src="./animacoes.js"</script>
         <title>Curriculo</title>
     </head>
 
@@ -24,7 +24,8 @@
                     </ul>
                 </div>
                 <div class="icone_curriculo">
-                    <img src="./icones/curriculo.png">
+                    <input type="image" src="./icones/curriculo.png" onclick="mostrar()">
+                    <!-- <img src="./icones/curriculo.png" id="teste" onclick=""> -->
                 </div>  
             </div>
         </div>
@@ -61,7 +62,7 @@
 
             <!--corpo formação academica e outros cursos-->
             <div class="corpoCursos">
-                <div class="formacao">
+                <div class="formacao" id="teste1">
 
                     <h4><img class="icone_formacao" src="./icones/formação.png">Formação Academica</h4>
                     
@@ -82,7 +83,7 @@
                     </p>
                 </div>
 
-                <div class="complementares">
+                <div class="complementares" id="teste2">
                     <!--Verificar se isso é uma boa pratica de programação-->
                     <h4><img class="icone_complementares" src="./icones/formação.png">Cursos Complemetares</h4>
 
@@ -103,7 +104,7 @@
                     </p>
                 </div>
 
-                <div class="aptidoes">
+                <div class="aptidoes" id="teste3">
                     <!--Verificar se isso é uma boa pratica de programação-->
                     <h4><img class="icone_aptidoes" src="./icones/feliz.png">Aptidoes</h4>
                     
