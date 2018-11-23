@@ -1,4 +1,4 @@
-<h1>Projeto para estagio: Montar meu curriculo online</h1>
+<h1>Projeto para estagio: Curriculo Online</h1>
 
 <h3>Objetivo</h3>
 
