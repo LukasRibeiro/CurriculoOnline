@@ -10,7 +10,7 @@ footer div:last-child {
 }
 
 #esconder{
-	transition: opacity 2s;
+	transition: opacity 3.5s;
 }
 
 /*tag da navbar superior com framework */
@@ -68,6 +68,7 @@ footer div:last-child {
 	padding-left: 30%;
 	z-index: 100px;
 	display: block;
+	visibility: hidden;
 }
 
 /*tag da div de formação */
