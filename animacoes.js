@@ -3,8 +3,6 @@ function welcome (){
 	alert("Clique no icone curriculo acima para mais informações")
 }
 
-
-
  function show (){
 	var show = document.getElementById("esconder");
 	
@@ -17,9 +15,3 @@ function welcome (){
 		show.style.opacity = 1;
 	}
 }
-
-// teste.style.opacity = 1;
-
-	// else if (teste.style.visibility = "visible"){
-	// 	teste.style.visibility = "hidden"
-	// 	}

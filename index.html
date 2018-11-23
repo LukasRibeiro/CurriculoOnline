@@ -7,15 +7,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="estilo.css">
+        <link rel="sylesheet" href="./reset.css">
         <link rel="stylesheet" href="./foundation-6.4.2-complete/css/foundation.min.css">
         <link rel="stylesheet" href="./foundation-6.4.2-complete/css/app.css">
-        <link rel="sylesheet" href="./reset.css">
         <script type="text/javascript" src="./animacoes.js"></script>
 
         <title>Curriculo</title>
     </head>
 
     <body onload ="welcome()">
+
         <!--Navbar principal do site com framework-->
         <div data-sticky-container>
             <div class="top-bar" data-sticky data-margin-top="0">
@@ -28,8 +29,6 @@
                     <a onclick ="show()">
                         <img src="./icones/curriculo.png" >
                     </a>
-
-                    <!-- <img src="./icones/curriculo.png" id="teste" onclick=""> -->
                 </div>  
             </div>
         </div>
@@ -39,7 +38,7 @@
             <div class="fotoedados">
                <div class="foto_perfil">
                     <div>
-                        <img src="./imagens/minhafoto.jpg">
+                        <img src="./imagens/foto.jpg">
                     </div>
                 </div>
 
@@ -64,9 +63,9 @@
                 </div>
             </div>
 
-            <!--corpo formação academica e outros cursos-->
+            <!--corpo formação academica e complementares-->
             <div id="esconder" class="corpoCursos">
-                <div class="formacao" id="teste1">
+                <div class="formacao">
 
                     <h4><img class="icone_formacao" src="./icones/formação.png">Formação Academica</h4>
                     
@@ -87,8 +86,7 @@
                     </p>
                 </div>
 
-                <div class="complementares" id="teste2">
-                    <!--Verificar se isso é uma boa pratica de programação-->
+                <div class="complementares">
                     <h4><img class="icone_complementares" src="./icones/formação.png">Cursos Complemetares</h4>
 
                     <p>
@@ -108,8 +106,7 @@
                     </p>
                 </div>
 
-                <div class="aptidoes" id="teste3">
-                    <!--Verificar se isso é uma boa pratica de programação-->
+                <div class="aptidoes">
                     <h4><img class="icone_aptidoes" src="./icones/feliz.png">Aptidoes</h4>
                     
                     <p>
@@ -130,15 +127,5 @@
                </div>
             </div>
         </div>
-
-        <footer class="row">
-            <div class="large-12 columns"></div>
-                <hr>
-            <div class="row">
-
-            <div class="large-6 columns"></div>
-
-            <div class="large-6 columns"></div>
-        </footer>
     </body>
 </html>
