@@ -10,17 +10,8 @@ footer div:last-child {
 }
 
 #esconder{
-	transition: opacity 3s;
-
+	transition: opacity 2s;
 }
-
-
-
-
-
-
-
-
 
 /*tag da navbar superior com framework */
 .top-bar{
@@ -81,7 +72,6 @@ footer div:last-child {
 
 /*tag da div de formação */
 .formacao{
-/*	display: none;*/
 	top: 10%;
 	text-align: center;
 	border-style: outset;
@@ -97,7 +87,6 @@ footer div:last-child {
 
 /*tag dos cursos complementares */
 .complementares{
-	/*display: none;*/
 	margin-top: 30px;
 	text-align: center;
 	border-style: outset;
@@ -112,7 +101,6 @@ footer div:last-child {
 
 /*tag das aptidoes */
 .aptidoes{
-/*s*/
 	margin-top: 30px;
 	text-align: center;
 	border-style: outset;
