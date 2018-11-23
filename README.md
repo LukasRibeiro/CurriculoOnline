@@ -7,7 +7,7 @@
 
 <h3>Tecnologias utilizadas.</h3>
 
-<h4>Hypertext Markup Language (HTMl)</h4>
+<h4>Hypertext Markup Language (HTML)</h4>
 
 <P>HTML é um acrônimo para HyperText Markup Language, que em português quer dizer linguagem de marcação de hipertexto. Se trata de uma linguagem de marcação que usamos para publicarmos conteúdo (texto, imagem, vídeo, áudio e etc) na Web. HTML é essencial para que o navegador o interprete, informando-o como estruturar a página web, e exiba seu conteúdo quando você acessa essa página pela internet</P>
 
