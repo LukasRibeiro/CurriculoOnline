@@ -28,7 +28,7 @@ O CSS seleciona um elemento do HTML para estilizá-lo e apresentá-lo como nova 
 <h3>Fondation (Framework)</h3>
 
 <p>Lançado em 2011 é um dos frameworks front-end que permite uma construção de aplicações mais rápida, chamando diversas funções de estilo prontas. Além disso, ele também possui integração com o JavaScript, o que permite diferentes efeitos em sua utilização.
-Foundation tem a vantagem de manter um código enxuto e conciso, além de estar adaptado para os diferentes tipos de tela. Estes são alguns dos elementos que o fazem ser tão conhecido e utilizado.</p>
+Foundation tem a vantagem de manter um código enxuto e conciso, além de estar adaptado para os diferentes tipos de tela. Estes são alguns dos elementos que o fazem ser tão utilizado.</p>
 
 <h3>Vantagens e desvantagens do Foundation</h3>
 
