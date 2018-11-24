@@ -1,4 +1,4 @@
-<h1>Projeto para estagio: Curriculo Online</h1>
+<h1>Curriculo Online</h1>
 
 <h3>Objetivo</h3>
 
@@ -43,7 +43,7 @@ Foundation tem a vantagem de manter um código enxuto e conciso, além de estar 
 <p>Uma pequena complexidade na customização.</p>
 <p>A modificação de códigos é difícil para iniciantes.</p>
 
-<h3>Referencias</h3>
+<h3>Referência</h3>
 <p>
 https://becode.com.br/frameworks-front-end-mais-amados-segundo-github/
 
