@@ -2,7 +2,7 @@
 
 <h3>Objetivo</h3>
 
-<p> Objetivo do projeto é realizar uma pagina online do meu curriculo, utilizando as tecnologias de desenvolvimento front end, e aplicar ao projeto da melhor fomra possivel.</p>
+<p> Objetivo do projeto é realizar uma pagina online do meu curriculo, utilizando as tecnologias de desenvolvimento front end, e aplicar ao projeto da melhor forma possivel.</p>
 <br>
 
 <h3>Tecnologias utilizadas.</h3>
