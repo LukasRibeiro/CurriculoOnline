@@ -1,6 +1,6 @@
 function welcome (){
 	alert("Bem vindo");
-	alert("Clique no icone curriculo acima para mais informações")
+	alert("Clique no icone currículo acima para mais informações")
 }
 
  function show (){

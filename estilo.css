@@ -9,7 +9,7 @@
 	z-index: 100px;
 	top: 0px;
   	left:0;
-}
+} 
 
 .foto_perfil{
 	width: 150px;
@@ -25,7 +25,7 @@
 .principal{
 	float: none;
 	display: flex;
-	background-color: #D3D3D3;
+	background-color: #B0C4DE;
 }
 
 .corpodados{
